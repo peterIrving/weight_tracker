@@ -1,16 +1,15 @@
 # weight_tracker
 
-A new Flutter project.
 
-## Getting Started
+## Setup Instructions
 
-This project is a starting point for a Flutter application.
+### 1) pull project down from github (ex: git clone https://github.com/peterIrving/weight_tracker in desired location)
 
-A few resources to get you started if this is your first Flutter project:
+### 2) Fetch Dependencies (flutter pub get)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 3) In the firebase dashboard: 
+ 1) create a new firebase project
+ 2) enable add anonymous authentication and firestore (test mode security required) 
+ 3) add flutter to firebase project and follow flutter firecommands in terminal
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Packages Used
