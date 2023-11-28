@@ -43,3 +43,6 @@ If I used the Streambased approach to reading the WeightEntry collection, there 
 #### 2) did not implement user specific security rules (currently any weight entry added to DB is visible by any user)
 
 
+https://github.com/peterIrving/weight_tracker/assets/46767992/a5e92495-b387-464c-b9ec-b855ad09efa2
+
+
