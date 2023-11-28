@@ -79,6 +79,7 @@ class EntryBottomSheetCubit extends Cubit<EntryBottomSheetState> {
   Future<void> _updateEntry(WeightEntry entry) async {
     final updatedEntry = entry.copyWith(
       weight: double.parse(textEditingController.text),
+      updatedDateTime: DateTime.now(),
     );
     (await weightEntriesService.editEntry(updatedEntry)).fold(
       (errorMessage) => emit(
