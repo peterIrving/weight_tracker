@@ -38,7 +38,7 @@ If I used the Streambased approach to reading the WeightEntry collection, there 
 #### 3) Edit Weight Entry
 #### 4) Delete Weight Entry
 
-## Not implemented
+## Not implemented due to time
 #### 1) did not implement Sign Out
 #### 2) did not implement user specific security rules (currently any weight entry added to DB is visible by any user)
 
