@@ -26,7 +26,7 @@ I went with the functional approach to showcase my preferred method to manage st
 
 When the EntryBottomSheetCubit (state manager) successfully adds or edits a WeightEntry, the EntryBottomSheetCubit updates EntryListCubit (another state manager) using a mixin (CanEditList) as an interface. This is a pattern I learned in the iOS world as a delegate/protocol pattern.
 
-Ive read and been told by many flutter developers that this is not a good idea to inject Cubits into other Cubits due to state complexity. In practice I have had a lot of success with this pattern in Flutter projects, particularly when one child cubit updates its parent cubit (CRUD updates that should be reflected in the parent)
+Ive read and been told by many flutter developers that this is not a good idea to inject Cubits into other Cubits due to state complexity. In practice I have had a lot of success with this pattern in Flutter and iOS projects, particularly when one child cubit updates its parent cubit (CRUD updates that should be reflected in the parent)
 
 If I used the Streambased approach to reading the WeightEntry collection, there would have been no need for inter cubit communication. The EntryList would just automatically update when the EntryBottomSheetCubit successfully makes its crud call. 
 
