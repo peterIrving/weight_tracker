@@ -7,14 +7,7 @@
 
 #### 2) Fetch Dependencies (flutter pub get)
 
-- speed up compile time on iOS with https://github.com/invertase/firestore-ios-sdk-frameworks
-
-#### 3) In the firebase dashboard: 
-  1) create a new firebase project
-  2) enable add anonymous authentication and firestore (test mode security required) 
-  3) add flutter to firebase project and follow flutter firecommands in terminal (Ive tested on iOS and Android)
-
-#### 4) run app
+#### 3) run app
 
 ## Assumptions
 
